@@ -1,27 +1,86 @@
 /* Font connection */
 
 @font-face {
-    font-family: 'Jaapokkisubtract';
-    src: url('../fonts/JaapokkisubtractRegular.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/JaapokkisubtractRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/JaapokkisubtractRegular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/JaapokkisubtractRegular.woff') format('woff'), /* Pretty Modern Browsers */
-    url('../fonts/JaapokkisubtractRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/JaapokkisubtractRegular#svgFontName') format('svg'); /* Legacy iOS */
+  font-family: 'Jaapokkisubtract';
+  Jaapokkisubtract src: url('../fonts/Regular.eot');
+  /* IE9 Compat Modes */
+  src: url('../fonts/JaapokkisubtractRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/JaapokkisubtractRegular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/JaapokkisubtractRegular.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/JaapokkisubtractRegular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/JaapokkisubtractRegular#svgFontName') format('svg');
+  /* Legacy iOS */
 }
-
+*{
+  box-sizing: border-box;
+}
 /* Specification */
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    color: #0001c5;
-    letter-spacing: 0.06em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: #0001c5;
+  letter-spacing: 0.06em;
+  
 }
 
-.header{
-  background:url(../img/first_bg.jpg) no-repeat center bottom / cover;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Jaapokkisubtract', sans-serif;
+}
+
+.jpk-font {
+  font-family: 'Jaapokkisubtract', sans-serif;
+}
+
+.container {
+  /* margin: 0 auto; */
+  margin: 0 7%;
+  position: relative;
+}
+
+.header {
+  background: url(../img/first_bg.jpg) no-repeat center bottom / cover;
   color: #fff;
   height: 100vh;
+}
+
+.header .container {
+  height: 100vh;
+}
+.logo{
+  width: 48px;
+  height: 48px;
+  background-color: #ffffff;
+  color:#0000a0;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 48px;
+  text-decoration: none;
+  display: block;
+  position: absolute;
+  top:9%;
+  transform: all 15s ease;
+
+}
+.logo:hover{
+  border-radius: 10px;
+} 
+.becreative{
+  color: #0304b9;
+  font-size: 18px;
+  width: 42px;
+  height: 200px;
+  background-color: #fff;
+  padding: 0 10px;
+  position: absolute;
+  left: 55%;
+  top:0;
+  text-align: center;
 
 }
