@@ -11,9 +11,11 @@
   url('../fonts/JaapokkisubtractRegular#svgFontName') format('svg');
   /* Legacy iOS */
 }
-*{
+
+* {
   box-sizing: border-box;
 }
+
 /* Specification */
 
 body {
@@ -21,7 +23,6 @@ body {
   font-size: 12px;
   color: #0001c5;
   letter-spacing: 0.06em;
-  
 }
 
 h1,
@@ -31,6 +32,8 @@ h4,
 h5,
 h6 {
   font-family: 'Jaapokkisubtract', sans-serif;
+  letter-spacing: 0.14;
+  font-weight: normal;
 }
 
 .jpk-font {
@@ -52,11 +55,12 @@ h6 {
 .header .container {
   height: 100vh;
 }
-.logo{
+
+.logo {
   width: 48px;
   height: 48px;
   background-color: #ffffff;
-  color:#0000a0;
+  color: #0000a0;
   font-size: 25px;
   text-transform: uppercase;
   text-align: center;
@@ -64,23 +68,88 @@ h6 {
   text-decoration: none;
   display: block;
   position: absolute;
-  top:9%;
+  top: 9%;
   transform: all 15s ease;
-
 }
-.logo:hover{
+
+.logo:hover {
   border-radius: 10px;
-} 
-.becreative{
+}
+
+.becreative {
   color: #0304b9;
   font-size: 18px;
   width: 42px;
-  height: 200px;
+  height: 270px;
   background-color: #fff;
-  padding: 0 10px;
+  padding: 0 15px;
   position: absolute;
-  left: 55%;
-  top:0;
+  left: 61%;
+  top: 0;
+  line-height: 1.5em;
   text-align: center;
+  /* z-index: 2; */
+}
 
+.hamburger-menu {
+  width: 40px;
+  /* Ширина найдовшої полоски*/
+  position: absolute;
+  right: 0;
+  top: 8%;
+  /* Розміщення ТОП аналогічне, як і в ЛОГО*/
+  float: right;
+  cursor: pointer;
+}
+
+.hamburger-menu span {
+  background-color: #fff;
+  display: block;
+  height: 2px;
+  /* Висота однієї палички*/
+  margin-bottom: 6px;
+  /* Відстань між палочками*/
+  float: right;
+  width: 100%;
+}
+
+.hamburger-menu span:nth-child(1) {}
+
+.hamburger-menu span:nth-child(2) {
+  width: 75%;
+}
+
+.hamburger-menu span:nth-child(3) {
+  width: 50%;
+}
+
+.offer {
+  position: absolute;
+  left: 0;
+  top: 12%;
+  /* z-index: 1; */
+}
+
+.offer__bg {
+  font-size: 300px;
+  color: #1b1cc4;
+  
+  /* z-index: 2; */
+}
+
+.offer__title {
+  font-size: 55px;
+  position: relative;
+  width: 561px;
+}
+
+.offer__title:after { /* Паличка */
+  content: '';
+  display: block;
+  background-color: #fff;
+  width: 29px;
+  height: 5px;
+  position: absolute;
+  /* top: 0;
+  right: 0; */
 }
