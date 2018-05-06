@@ -20,9 +20,13 @@ body {
   font-size: 12px;
   color: #0001c5;
   letter-spacing: 0.06em;
+  
 }
 div, p, span, a, input, button{
   box-sizing: border-box;
+}
+p{
+  line-height: 1.7em;
 }
 h1,
 h2,
@@ -39,6 +43,22 @@ h6 {
   font-family: 'Jaapokkisubtract', sans-serif;
 }
 
+.btn{
+  font-family: 'Jaapokkisubtract', sans-serif;
+  font-size: 20px;
+  color:#fff;
+  background-color: transparent;
+  border: 3px solid #fff;
+  cursor: pointer;
+  padding: 17px 0;
+  width: 217px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover{
+  background-color: #fff;
+  color:#0001c5;
+}
 /* End of specification */
 .container {
   margin: 0 7%;
@@ -132,13 +152,16 @@ h6 {
 .offer {
   position: absolute;
   left: 0;
-  top: 12%;
-  /* z-index: 1; */
+  top: 50%;
+  margin-top: -250px;
+  
 }
 
 .offer__bg {
   font-size: 300px;
   color: #1b1cc4;
+  position: absolute;
+
 
 }
 
@@ -146,6 +169,8 @@ h6 {
   font-size: 55px;
   position: relative;
   width: 561px;
+  margin-top: 110px;
+  margin-left: 134px;
 }
 
 .offer__title:after { /* Паличка */
@@ -159,9 +184,16 @@ h6 {
   right: 180px;
 }
 
+.offer__text{
+  font-size: 17px;
+  width: 337px;
+  margin-top: 40px;
+  margin-left: 226px;
+}
 
-
-
-
+.offer__btn{
+  margin-left: 350px;
+  margin-top: 45px;
+}
 
 /* End of header section */
