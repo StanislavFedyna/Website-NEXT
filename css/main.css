@@ -70,10 +70,11 @@ h6 {
   position: absolute;
   top: 8%;
   transition: all 0.3s ease;
+  padding-top: 2px;
 }
 
 .logo:hover {
-  border-radius: 10px;
+  border-radius: 25px;
 }
 
 .becreative {
@@ -84,7 +85,7 @@ h6 {
   width: 41px;
   padding: 10px 15px;
   position: absolute;
-  left: 55%;
+  left: 61%;
   top: 0;
   line-height: 1.5em;
   text-transform: uppercase;
@@ -109,9 +110,16 @@ h6 {
   margin-bottom: 6px;/* Відстань між палочками*/
   float: right;
   width: 100%;
+  transition: all 1s ease;
 }
 
-.hamburger-menu span:nth-child(1) {}
+.hamburger-menu:hover span{
+  float: left;
+}
+
+.hamburger-menu span:nth-child(1) {
+
+}
 
 .hamburger-menu span:nth-child(2) {
   width: 75%;
@@ -147,8 +155,8 @@ h6 {
   width: 29px;
   height: 5px;
   position: absolute;
-  top: 0;
-  right: 240px;
+  top: -20px;
+  right: 180px;
 }
 
 
