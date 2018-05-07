@@ -202,9 +202,9 @@ h6 {
   font-size: 300px;
   width: 433px;
   position: absolute;
-  top:50%;
+  top:43%;
   margin-top: -185px;
-  right: -2%;
+  left: 65%;
   line-height: 0;
   text-shadow: 15px 15px 0 #0309a1;
 }
@@ -216,5 +216,29 @@ h6 {
 
 .next span:nth-child(2){
   color:#0048ff;
+}
+
+.scroll{
+ display: block; /* Блок */
+ font-size: 22px; 
+ border-right:3px solid #fff;
+ height: 133px; /* Висота палочки*/
+ padding-right: 40px;
+ padding-left: 20px;
+ padding-top: 20px;
+ color:#fff;
+ text-decoration: none;
+ width: 100px;
+ position: absolute;
+ right: 5%;
+ bottom: 0;
+ transition: all 0.3s ease;
+
+}
+
+.scroll:hover{
+background-color: #fff;
+color:#0000a0;
+border-right: 5px solid #0048ff;
 }
 /* End of header section */
