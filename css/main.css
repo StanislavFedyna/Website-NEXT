@@ -28,6 +28,7 @@ div, p, span, a, input, button{
 p{
   line-height: 1.7em;
 }
+
 h1,
 h2,
 h3,
@@ -60,6 +61,7 @@ h6 {
   color:#0001c5;
 }
 /* End of specification */
+
 .container {
   margin: 0 7%;
   position: relative;
@@ -126,8 +128,8 @@ h6 {
 .hamburger-menu span {
   background-color: #fff;
   display: block;
-  height: 2px;/* Висота однієї палички*/
-  margin-bottom: 6px;/* Відстань між палочками*/
+  height: 2px; /* Висота однієї палички*/
+  margin-bottom: 6px; /* Відстань між палочками*/
   float: right;
   width: 100%;
   transition: all 1s ease;
@@ -196,4 +198,23 @@ h6 {
   margin-top: 45px;
 }
 
+.next{
+  font-size: 300px;
+  width: 433px;
+  position: absolute;
+  top:50%;
+  margin-top: -185px;
+  right: -2%;
+  line-height: 0;
+  text-shadow: 15px 15px 0 #0309a1;
+}
+
+.next span{
+  margin-right: -70px;
+  line-height: 0.7em;
+}
+
+.next span:nth-child(2){
+  color:#0048ff;
+}
 /* End of header section */
