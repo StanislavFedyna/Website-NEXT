@@ -53,7 +53,6 @@ h2 {
 
 h3 {
   letter-spacing: 0.03em;
-  
 }
 
 .jpk-font {
@@ -265,12 +264,12 @@ h3 {
 
 /* Beginning services section */
 
-.services{
+.services {
   padding-top: 166px;
+  padding-bottom: 180px;
 }
-.section-title {
 
-}
+.section-title {}
 
 .section-title__intro {
   font-size: 23px;
@@ -293,33 +292,41 @@ h3 {
   height: 5px;
   margin-bottom: -15px;
 }
-.service{
+
+.service {
   display: flex;
   justify-content: space-between;
-  margin-top: 120;
+  margin-top: 120px;
 }
 
-.service__item{
+.service__item {
   width: 20%;
-  border:4px solid #0001e5;
+  border: 4px solid #0001e5;
   display: block;
-  
-  text-align:center;
+  text-align: center;
   padding-top: 60px;
   padding-bottom: 120px;
   position: relative;
+  transition: all .5s ease;
 }
-.service__icon{
+
+.service__item:hover {
+  background-color: #0001a5;
+  color: #fff;
+  box-shadow: 12px 12px 65px rgba(0, 1, 197, 0.45);
+}
+
+.service__icon {
   font-size: 40px;
   margin-bottom: 45px;
   display: block;
 }
 
-.service-title__h3{
+.service-title__h3 {
   font-size: 26px;
 }
 
-.service__more{
+.service__plus {
   font-size: 31px;
   width: 38px;
   height: 37px;
@@ -333,18 +340,38 @@ h3 {
   cursor: pointer;
 }
 
-.service__index{
+.service__index {
   position: absolute;
   font-family: 'Jaapokkisubtract', sans-serif;
   font-size: 23px;
-  color:#a8a8e4;
+  color: #a8a8e4;
   left: -55px;
-  top:30px;
+  top: 30px;
 }
 
-.service__item:hover{
-  background-color: #0001a5;
-  color:#fff;
-  box-shadow: 12px 12px 65px rgba(0, 1, 197, 0.45);
+/* End of service section */
 
+/* Beginning footer section */
+
+.footer {
+  background-color: #ededf8;
+  padding: 160px 0;
+}
+.credits{
+  display: flex;
+  justify-content: space-between;
+}
+.credits__logo {
+  background-color: #0001a5;
+  color: #fff;
+  position: relative;
+  top:auto; 
+}
+
+.credits__btn{
+  color:#0001a5;
+  border:3px solid #0001a5;
+  font-size: 17px;
+  padding: 13px 0;
+  width: 172px;
 }
