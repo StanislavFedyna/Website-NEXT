@@ -237,7 +237,7 @@ h3 {
 
 .scroll {
   display: block;
-  /* Блок */
+  /* block */
   font-size: 22px;
   border-right: 3px solid #fff;
   height: 133px;
@@ -349,7 +349,7 @@ h3 {
   top: 30px;
 }
 
-/* End of service section */
+/* End of services section */
 
 /* Beginning footer section */
 
