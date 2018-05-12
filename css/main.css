@@ -27,7 +27,8 @@ span,
 a,
 input,
 button {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 p {
@@ -68,6 +69,8 @@ h3 {
   cursor: pointer;
   padding: 17px 0;
   width: 217px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -89,7 +92,8 @@ h3 {
   background: url(../img/first_bg.jpg) no-repeat center bottom / cover;
   color: #fff;
   height: 100vh;
-  box-shadow: 0 40px 190px rgba(33, 48, 99, 0.4);
+  -webkit-box-shadow: 0 40px 190px rgba(33, 48, 99, 0.4);
+          box-shadow: 0 40px 190px rgba(33, 48, 99, 0.4);
 }
 
 .header .container {
@@ -109,6 +113,8 @@ h3 {
   display: block;
   position: absolute;
   top: 8%;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   padding-top: 2px;
 }
@@ -153,6 +159,8 @@ h3 {
   /* Відстань між палочками*/
   float: right;
   width: 100%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
   transition: all 1s ease;
 }
 
@@ -251,6 +259,8 @@ h3 {
   position: absolute;
   right: 5%;
   bottom: 0;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -273,7 +283,8 @@ h3 {
 
 .section-title__intro {
   font-size: 23px;
-  columns: #a8a8e4;
+  -webkit-columns: #a8a8e4;
+          columns: #a8a8e4;
   font-family: 'Jaapokkisubtract', sans-serif;
   margin: 0;
 }
@@ -294,8 +305,12 @@ h3 {
 }
 
 .service {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 120px;
 }
 
@@ -307,13 +322,16 @@ h3 {
   padding-top: 60px;
   padding-bottom: 120px;
   position: relative;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
   transition: all .5s ease;
 }
 
 .service__item:hover {
   background-color: #0001a5;
   color: #fff;
-  box-shadow: 12px 12px 65px rgba(0, 1, 197, 0.45);
+  -webkit-box-shadow: 12px 12px 65px rgba(0, 1, 197, 0.45);
+          box-shadow: 12px 12px 65px rgba(0, 1, 197, 0.45);
 }
 
 .service__icon {
@@ -359,9 +377,15 @@ h3 {
 }
 
 .credits {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .credits__logo {
