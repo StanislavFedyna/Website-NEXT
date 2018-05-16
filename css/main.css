@@ -117,6 +117,7 @@ h3 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   padding-top: 2px;
+  z-index: 1;
 }
 
 .logo:hover {
@@ -168,7 +169,6 @@ h3 {
   float: left;
 }
 
-.hamburger-menu span:nth-child(1) {}
 
 .hamburger-menu span:nth-child(2) {
   width: 75%;
@@ -278,8 +278,6 @@ h3 {
   padding-top: 166px;
   padding-bottom: 180px;
 }
-
-.section-title {}
 
 .section-title__intro {
   font-size: 23px;
