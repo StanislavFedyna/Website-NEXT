@@ -6,7 +6,7 @@
 /* 1369 - 1600 px */
 @media screen and (max-width: 1600px) {
 
-}
+} 
 
 /* 961 - 1368 px */
 @media screen and (max-width: 1368px) {
@@ -28,9 +28,9 @@
         width: 220px;
         left: 75%;
     }
-    .becreative {
+    /* .becreative {
         display: none;
-    }
+    } */
     .service {
         flex-direction: column;
     }
