@@ -28,9 +28,7 @@
         width: 220px;
         left: 75%;
     }
-    /* .becreative {
-        display: none;
-    } */
+
     .service {
         flex-direction: column;
     }
@@ -51,6 +49,10 @@
     .credits > * {
         margin-bottom: 40px;
     }
+    
+    .becreative {
+      display: none;
+  }
 }
 
 /* 481 - 768 px */
